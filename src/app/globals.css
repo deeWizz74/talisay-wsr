@@ -1,0 +1,202 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-archivo), var(--font-inter-tight), sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-heading: var(--font-archivo), var(--font-inter-tight), sans-serif;
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-accent-vivid: var(--accent-vivid);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  /* Talisay Stake WSR — Risograph direction (unslop.site: Landing / More Directions → riso).
+     Paper cream ground, ink navy, a single accent ink (darkened from the reference's
+     vivid orange, which failed contrast at small text sizes — see --accent-vivid below
+     for the large-fill-only version). Light only, applied globally. */
+  --background: #f1efe8;
+  --foreground: #1a1f3a;
+  --card: #fdfcf8;
+  --card-foreground: #1a1f3a;
+  --popover: #fdfcf8;
+  --popover-foreground: #1a1f3a;
+  --primary: #1a1f3a;
+  --primary-foreground: #f1efe8;
+  --secondary: #e8e2cf;
+  --secondary-foreground: #1a1f3a;
+  --muted: #e8e2cf;
+  --muted-foreground: #5c5f74;
+  --accent: #b8461a;
+  --accent-foreground: #fdfcf8;
+  --accent-vivid: #ff6e3e;
+  --destructive: #c0392b;
+  --border: #1a1f3a26;
+  --input: #1a1f3a3d;
+  --ring: #b8461a;
+  --chart-1: #b8461a;
+  --chart-2: #1a1f3a;
+  --chart-3: #5c5f74;
+  --chart-4: #9a9a86;
+  --chart-5: #cfc7ab;
+  --radius: 0.5rem;
+  --sidebar: #fdfcf8;
+  --sidebar-foreground: #1a1f3a;
+  --sidebar-primary: #1a1f3a;
+  --sidebar-primary-foreground: #f1efe8;
+  --sidebar-accent: #e8e2cf;
+  --sidebar-accent-foreground: #1a1f3a;
+  --sidebar-border: #1a1f3a26;
+  --sidebar-ring: #b8461a;
+  --vacant-bg: #f3ead2;
+  --vacant-line: #ddbf8a;
+  --success: #1b7a3f;
+  --success-bg: #e5f0e3;
+  --messenger: #1a1f3a;
+  --messenger-bg: #e8e2cf;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.205 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --popover: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.922 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.704 0.191 22.216);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.556 0 0);
+  --chart-1: oklch(0.87 0 0);
+  --chart-2: oklch(0.556 0 0);
+  --chart-3: oklch(0.439 0 0);
+  --chart-4: oklch(0.371 0 0);
+  --chart-5: oklch(0.269 0 0);
+  --sidebar: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.985 0 0);
+  --sidebar-primary: oklch(0.488 0.243 264.376);
+  --sidebar-primary-foreground: oklch(0.985 0 0);
+  --sidebar-accent: oklch(0.269 0 0);
+  --sidebar-accent-foreground: oklch(0.985 0 0);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.556 0 0);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/* Risograph texture utilities — available app-wide, used sparingly (hero-style
+   sections only; kept off dense admin/data screens by choice, not limitation). */
+
+.riso-grain {
+  position: relative;
+  isolation: isolate;
+}
+.riso-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: radial-gradient(color-mix(in srgb, var(--foreground) 8%, transparent) 1px, transparent 1.5px);
+  background-size: 4px 4px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.riso-grain > * {
+  position: relative;
+  z-index: 1;
+}
+
+.riso-halftone {
+  background-image: radial-gradient(currentColor 1.5px, transparent 1.8px);
+  background-size: 6px 6px;
+  mix-blend-mode: multiply;
+  -webkit-mask-image: radial-gradient(circle, black 35%, transparent 72%);
+  mask-image: radial-gradient(circle, black 35%, transparent 72%);
+}
+
+.riso-chip {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--radius-sm);
+  background-color: var(--foreground);
+  color: var(--background);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.5rem 1.125rem;
+  transition: background-color 0.15s ease;
+}
+.riso-chip:hover {
+  background-color: color-mix(in srgb, var(--foreground) 85%, white);
+}
+
+.riso-card {
+  background-color: var(--card);
+  border: 1.5px solid var(--foreground);
+  border-radius: var(--radius-md);
+}
+
+.riso-tile {
+  background-color: var(--secondary);
+  border-radius: var(--radius-sm);
+  transition: background-color 0.15s ease;
+}
+.riso-tile:hover {
+  background-color: color-mix(in srgb, var(--secondary) 80%, black);
+}

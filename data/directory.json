@@ -1,0 +1,1137 @@
+{
+  "meta": {
+    "title": "Talisay Stake — Know Your Specialist",
+    "updatedAt": "2026-08-13T07:52:21.181Z",
+    "roleLegend": {
+      "WSR Specialist": "Leads the ward Welfare & Self-Reliance committee.",
+      "Education Specialist": "Helps members pursue education and skills training.",
+      "Family Services Specialist": "Connects members with counseling and family support resources.",
+      "Health and Nutrition Specialist": "Supports members on health, nutrition, and emergency preparedness.",
+      "GAMA Specialist": "GAMA = Guide to Administering Medical Assistance. Helps members access medical assistance guidance.",
+      "My Plan Specialist": "Helps Returned Missionaries build their personal My Plan for continued self-reliance.",
+      "Business and Employment Specialist": "Assists with job search, resumes, and small business support.",
+      "ATPG Specialist": "ATPG = Area Temporal Preparedness Guide. Coordinates emergency and temporal preparedness planning.",
+      "High Councilor": "Assigned stake leader supporting wards and stake committees.",
+      "Education Chairman": "Helps members pursue education and skills training.",
+      "Education Vice-Chairman": "Assists and co-leads with the Education Chairman.",
+      "Family Services Chairman": "Connects members with counseling and family support resources.",
+      "Family Services Vice-Chairman": "Assists and co-leads with the Family Services Chairman.",
+      "Health and Nutrition Chairman": "Supports members on health, nutrition, and emergency preparedness.",
+      "Health and Nutrition Vice-Chairman": "Assists and co-leads with the Health and Nutrition Chairman.",
+      "GAMA Chairman": "GAMA = Guide to Administering Medical Assistance. Helps members access medical assistance guidance.",
+      "GAMA Vice-Chairman": "Assists and co-leads with the GAMA Chairman.",
+      "My Plan Chairman": "Helps Returned Missionaries build their personal My Plan for continued self-reliance.",
+      "My Plan Vice-Chairman": "Assists and co-leads with the My Plan Chairman.",
+      "Business and Employment Chairman": "Assists with job search, resumes, and small business support.",
+      "Business and Employment Vice-Chairman": "Assists and co-leads with the Business and Employment Chairman.",
+      "ATPG Chairman": "ATPG = Area Temporal Preparedness Guide. Coordinates emergency and temporal preparedness planning.",
+      "ATPG Vice-Chairman": "Assists and co-leads with the ATPG Chairman.",
+      "Stake Welfare and Self-Reliance Specialist": "Leads the ward Welfare & Self-Reliance committee.",
+      "Stake WSR Secretary": "Keeps committee records and supports the Stake WSR Specialist.",
+      "1st Counselor, Stake Presidency": "Serves as First Counselor in the Stake Presidency."
+    }
+  },
+  "info": {
+    "pefFaq": [
+      {
+        "id": "faq1",
+        "question": "Placeholder question — what is PEF?",
+        "answer": "Placeholder answer. Edit this from the admin dashboard to add the real PEF FAQ content."
+      },
+      {
+        "id": "faq2",
+        "question": "Placeholder question — who is eligible to apply?",
+        "answer": "Placeholder answer. Edit this from the admin dashboard to add the real PEF FAQ content."
+      },
+      {
+        "id": "faq3",
+        "question": "Placeholder question — how do I apply?",
+        "answer": "Placeholder answer. Edit this from the admin dashboard to add the real PEF FAQ content."
+      }
+    ],
+    "spotlight": [],
+    "wsrEfforts": [
+      {
+        "id": "id1786547635681864",
+        "title": "",
+        "date": "2026-08-12",
+        "photo": "/uploads/effort-id1786547635681864-1786548736014.jpg",
+        "content": [
+          {
+            "id": "id1786548737367578",
+            "type": "text",
+            "text": "this is just a test"
+          },
+          {
+            "id": "id1786548754834885",
+            "type": "image",
+            "url": "/uploads/effort-id1786547635681864-inline-1786548754825.jpg",
+            "caption": ""
+          },
+          {
+            "id": "id1786548910717171",
+            "type": "text",
+            "text": "last line"
+          }
+        ]
+      },
+      {
+        "id": "id1786548917332266",
+        "title": "",
+        "date": "2026-08-12",
+        "photo": "",
+        "content": []
+      }
+    ]
+  },
+  "wards": [
+    {
+      "slug": "stake",
+      "name": "Talisay Stake WSR",
+      "isStake": true,
+      "leadership": [
+        {
+          "role": "1st Counselor, Stake Presidency",
+          "people": [
+            {
+              "id": "p1",
+              "name": "President Adonis Magsino",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "High Councilor",
+          "people": [
+            {
+              "id": "p2",
+              "name": "Diony Garcia",
+              "photo": "/uploads/p2-1786541320632.png",
+              "messenger": "https://www.facebook.com/sheny74",
+              "phone": "09488618262",
+              "email": ""
+            },
+            {
+              "id": "p3",
+              "name": "Jesus Victorillo",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p4",
+              "name": "Ruben Genterone",
+              "photo": "",
+              "messenger": "https://www.facebook.com/rgenterone",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        }
+      ],
+      "lead": {
+        "role": "Stake Welfare and Self-Reliance Specialist",
+        "people": [
+          {
+            "id": "p5",
+            "name": "Shiela Garcia",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Chairman",
+          "people": [
+            {
+              "id": "p6",
+              "name": "Chealsea Gonzales",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ],
+          "viceChair": {
+            "role": "Education Vice-Chairman",
+            "people": []
+          }
+        },
+        {
+          "role": "Family Services Chairman",
+          "people": [
+            {
+              "id": "p7",
+              "name": "Ruth Diane Estrada",
+              "photo": "",
+              "messenger": "https://www.facebook.com/deeyanrendon",
+              "phone": "",
+              "email": ""
+            }
+          ],
+          "viceChair": {
+            "role": "Family Services Vice-Chairman",
+            "people": []
+          }
+        },
+        {
+          "role": "Health and Nutrition Chairman",
+          "people": [
+            {
+              "id": "p8",
+              "name": "Moroni Uy",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ],
+          "viceChair": {
+            "role": "Health and Nutrition Vice-Chairman",
+            "people": []
+          }
+        },
+        {
+          "role": "GAMA Chairman",
+          "people": [
+            {
+              "id": "p9",
+              "name": "Ruben Genterone",
+              "photo": "",
+              "messenger": "https://www.facebook.com/rgenterone",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786369182544219",
+              "name": "Jean Genterone",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ],
+          "viceChair": {
+            "role": "GAMA Vice-Chairman",
+            "people": []
+          }
+        },
+        {
+          "role": "My Plan Chairman",
+          "people": [
+            {
+              "id": "p10",
+              "name": "Feljoy Osores",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ],
+          "viceChair": {
+            "role": "My Plan Vice-Chairman",
+            "people": []
+          }
+        },
+        {
+          "role": "Business and Employment Chairman",
+          "people": [],
+          "viceChair": {
+            "role": "Business and Employment Vice-Chairman",
+            "people": []
+          }
+        },
+        {
+          "role": "ATPG Chairman",
+          "people": [
+            {
+              "id": "p11",
+              "name": "Julio Candelario",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ],
+          "viceChair": {
+            "role": "ATPG Vice-Chairman",
+            "people": []
+          }
+        }
+      ],
+      "secretary": {
+        "role": "Stake WSR Secretary",
+        "people": []
+      }
+    },
+    {
+      "slug": "carcar",
+      "name": "Carcar Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p12",
+            "name": "Ivona Mausisa",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": [
+            {
+              "id": "p13",
+              "name": "Cris Rheanne Sacay",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366671322721",
+              "name": "Sarah Alchea Responso",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": [
+            {
+              "id": "p14",
+              "name": "Ivona Mausisa",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366742320486",
+              "name": "Erlwin Abanggan",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": [
+            {
+              "id": "p15",
+              "name": "Emmalinda Ortega",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366681282793",
+              "name": "Alma Santa Cruz",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": [
+            {
+              "id": "p16",
+              "name": "Emmalinda Ortega",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366704801872",
+              "name": "Josephine Sabala",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366707738474",
+              "name": "Alma Santa Cruz",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": [
+            {
+              "id": "p17",
+              "name": "Erlwin Abanggan",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p178636671431458",
+              "name": "Cris Rheanne",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366718164492",
+              "name": "Brent Mausisa",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366723173453",
+              "name": "Sarah Alchea",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": [
+            {
+              "id": "p18",
+              "name": "Randy Ortega",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366753431681",
+              "name": "Erlwin Abanggan",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": [
+            {
+              "id": "p19",
+              "name": "Josephine Sabala",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p1786366769683839",
+              "name": "Maritoni Sabala",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "lawaan-1st",
+      "name": "Lawaan 1st Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p20",
+            "name": "Aniceta Pongase",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": []
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": []
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": []
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": []
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": []
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": []
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": []
+        }
+      ]
+    },
+    {
+      "slug": "lawaan-2nd",
+      "name": "Lawaan 2nd Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p21",
+            "name": "Jeffrey Traya",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": [
+            {
+              "id": "p22",
+              "name": "Alquida Canedo",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": []
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": [
+            {
+              "id": "p23",
+              "name": "Lilibeth Jagunap",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": [
+            {
+              "id": "p24",
+              "name": "Lovely Giua",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": []
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": []
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": [
+            {
+              "id": "p25",
+              "name": "Joey Alcantara",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "linao",
+      "name": "Linao Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p26",
+            "name": "Rossvet Lopez",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": []
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": [
+            {
+              "id": "p27",
+              "name": "Nilda Padua",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": []
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": []
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": []
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": []
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": []
+        }
+      ]
+    },
+    {
+      "slug": "minglanilla",
+      "name": "Minglanilla Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p28",
+            "name": "Mary Ann Silim",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": [
+            {
+              "id": "p29",
+              "name": "Maricel Destacamento",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": [
+            {
+              "id": "p30",
+              "name": "Bebeth Alfeche",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": [
+            {
+              "id": "p31",
+              "name": "Ban Ayade",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": [
+            {
+              "id": "p32",
+              "name": "Marco Daclan",
+              "photo": "",
+              "messenger": "",
+              "phone": "9352873592",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": [
+            {
+              "id": "p33",
+              "name": "Elaine Gel Alfeche",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": [
+            {
+              "id": "p34",
+              "name": "Alfer Secadas",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": [
+            {
+              "id": "p35",
+              "name": "Edgar Alfeche",
+              "photo": "",
+              "messenger": "",
+              "phone": "9773830107",
+              "email": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "naga",
+      "name": "Naga Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p36",
+            "name": "Alicia Gaa",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": [
+            {
+              "id": "p37",
+              "name": "Cleford Garing",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": [
+            {
+              "id": "p38",
+              "name": "Bryan Cuevas",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": [
+            {
+              "id": "p39",
+              "name": "Stacey Ann Umbay",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": [
+            {
+              "id": "p40",
+              "name": "Hanily Cuevas",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": [
+            {
+              "id": "p41",
+              "name": "Jelyn Rosell",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": [
+            {
+              "id": "p42",
+              "name": "Robin Rosalita",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": []
+        }
+      ]
+    },
+    {
+      "slug": "pardo",
+      "name": "Pardo Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p43",
+            "name": "Louriz Calica",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": [
+            {
+              "id": "p44",
+              "name": "Trisha Mae Gagelonia",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": [
+            {
+              "id": "p45",
+              "name": "Dominic Villanueva",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            },
+            {
+              "id": "p17863693204386",
+              "name": "Thata Villanueva",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": [
+            {
+              "id": "p46",
+              "name": "Kathrine Mendiola",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": [
+            {
+              "id": "p47",
+              "name": "Raquel Tan",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": [
+            {
+              "id": "p48",
+              "name": "Jerome Quisido",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": [
+            {
+              "id": "p49",
+              "name": "Elia Segovia",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": [
+            {
+              "id": "p50",
+              "name": "Richard Hernandez",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "talisay-1st",
+      "name": "Talisay 1st Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p51",
+            "name": "Hazel Tausa",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": []
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": []
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": []
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": []
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": []
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": []
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": []
+        }
+      ]
+    },
+    {
+      "slug": "talisay-2nd",
+      "name": "Talisay 2nd Ward",
+      "lead": {
+        "role": "WSR Specialist",
+        "people": [
+          {
+            "id": "p52",
+            "name": "Shiela Garcia",
+            "photo": "",
+            "messenger": "",
+            "phone": "",
+            "email": ""
+          }
+        ]
+      },
+      "roles": [
+        {
+          "role": "Education Specialist",
+          "people": [
+            {
+              "id": "p53",
+              "name": "Memelie Munoz",
+              "photo": "",
+              "messenger": "https://www.facebook.com/memz11",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Family Services Specialist",
+          "people": [
+            {
+              "id": "p54",
+              "name": "Judylyn Gonzales",
+              "photo": "",
+              "messenger": "https://www.facebook.com/judylyn.munoz",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Health and Nutrition Specialist",
+          "people": [
+            {
+              "id": "p55",
+              "name": "Joan Uy",
+              "photo": "",
+              "messenger": "https://www.facebook.com/joan.lumbab",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "GAMA Specialist",
+          "people": [
+            {
+              "id": "p56",
+              "name": "Ruben Genterone",
+              "photo": "",
+              "messenger": "https://www.facebook.com/rgenterone",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "My Plan Specialist",
+          "people": [
+            {
+              "id": "p57",
+              "name": "Jericho Genterone",
+              "photo": "",
+              "messenger": "https://www.facebook.com/jerichomiles.genterone.7",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "Business and Employment Specialist",
+          "people": [
+            {
+              "id": "p58",
+              "name": "Cris Codilla",
+              "photo": "/uploads/p58-1786604862179.jpg",
+              "messenger": "https://www.facebook.com/sirchul",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        },
+        {
+          "role": "ATPG Specialist",
+          "people": [
+            {
+              "id": "p59",
+              "name": "Jerald Munoz",
+              "photo": "",
+              "messenger": "https://www.facebook.com/reubenjon101817",
+              "phone": "",
+              "email": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
