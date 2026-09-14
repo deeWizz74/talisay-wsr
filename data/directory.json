@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Talisay Stake — Know Your Specialist",
-    "updatedAt": "2026-08-13T07:52:21.181Z",
+    "updatedAt": "2026-08-10T13:43:10.692Z",
     "roleLegend": {
       "WSR Specialist": "Leads the ward Welfare & Self-Reliance committee.",
       "Education Specialist": "Helps members pursue education and skills training.",
@@ -12,77 +12,18 @@
       "Business and Employment Specialist": "Assists with job search, resumes, and small business support.",
       "ATPG Specialist": "ATPG = Area Temporal Preparedness Guide. Coordinates emergency and temporal preparedness planning.",
       "High Councilor": "Assigned stake leader supporting wards and stake committees.",
+      "Vice Chairman / Co-Chairman": "Assists and co-leads the stake WSR committee alongside the WSR Specialist.",
       "Education Chairman": "Helps members pursue education and skills training.",
-      "Education Vice-Chairman": "Assists and co-leads with the Education Chairman.",
       "Family Services Chairman": "Connects members with counseling and family support resources.",
-      "Family Services Vice-Chairman": "Assists and co-leads with the Family Services Chairman.",
       "Health and Nutrition Chairman": "Supports members on health, nutrition, and emergency preparedness.",
-      "Health and Nutrition Vice-Chairman": "Assists and co-leads with the Health and Nutrition Chairman.",
       "GAMA Chairman": "GAMA = Guide to Administering Medical Assistance. Helps members access medical assistance guidance.",
-      "GAMA Vice-Chairman": "Assists and co-leads with the GAMA Chairman.",
       "My Plan Chairman": "Helps Returned Missionaries build their personal My Plan for continued self-reliance.",
-      "My Plan Vice-Chairman": "Assists and co-leads with the My Plan Chairman.",
       "Business and Employment Chairman": "Assists with job search, resumes, and small business support.",
-      "Business and Employment Vice-Chairman": "Assists and co-leads with the Business and Employment Chairman.",
       "ATPG Chairman": "ATPG = Area Temporal Preparedness Guide. Coordinates emergency and temporal preparedness planning.",
-      "ATPG Vice-Chairman": "Assists and co-leads with the ATPG Chairman.",
       "Stake Welfare and Self-Reliance Specialist": "Leads the ward Welfare & Self-Reliance committee.",
       "Stake WSR Secretary": "Keeps committee records and supports the Stake WSR Specialist.",
       "1st Counselor, Stake Presidency": "Serves as First Counselor in the Stake Presidency."
     }
-  },
-  "info": {
-    "pefFaq": [
-      {
-        "id": "faq1",
-        "question": "Placeholder question — what is PEF?",
-        "answer": "Placeholder answer. Edit this from the admin dashboard to add the real PEF FAQ content."
-      },
-      {
-        "id": "faq2",
-        "question": "Placeholder question — who is eligible to apply?",
-        "answer": "Placeholder answer. Edit this from the admin dashboard to add the real PEF FAQ content."
-      },
-      {
-        "id": "faq3",
-        "question": "Placeholder question — how do I apply?",
-        "answer": "Placeholder answer. Edit this from the admin dashboard to add the real PEF FAQ content."
-      }
-    ],
-    "spotlight": [],
-    "wsrEfforts": [
-      {
-        "id": "id1786547635681864",
-        "title": "",
-        "date": "2026-08-12",
-        "photo": "/uploads/effort-id1786547635681864-1786548736014.jpg",
-        "content": [
-          {
-            "id": "id1786548737367578",
-            "type": "text",
-            "text": "this is just a test"
-          },
-          {
-            "id": "id1786548754834885",
-            "type": "image",
-            "url": "/uploads/effort-id1786547635681864-inline-1786548754825.jpg",
-            "caption": ""
-          },
-          {
-            "id": "id1786548910717171",
-            "type": "text",
-            "text": "last line"
-          }
-        ]
-      },
-      {
-        "id": "id1786548917332266",
-        "title": "",
-        "date": "2026-08-12",
-        "photo": "",
-        "content": []
-      }
-    ]
   },
   "wards": [
     {
@@ -109,9 +50,9 @@
             {
               "id": "p2",
               "name": "Diony Garcia",
-              "photo": "/uploads/p2-1786541320632.png",
-              "messenger": "https://www.facebook.com/sheny74",
-              "phone": "09488618262",
+              "photo": "",
+              "messenger": "",
+              "phone": "",
               "email": ""
             },
             {
@@ -126,7 +67,7 @@
               "id": "p4",
               "name": "Ruben Genterone",
               "photo": "",
-              "messenger": "https://www.facebook.com/rgenterone",
+              "messenger": "",
               "phone": "",
               "email": ""
             }
@@ -160,7 +101,7 @@
             }
           ],
           "viceChair": {
-            "role": "Education Vice-Chairman",
+            "role": "Vice Chairman / Co-Chairman",
             "people": []
           }
         },
@@ -171,13 +112,13 @@
               "id": "p7",
               "name": "Ruth Diane Estrada",
               "photo": "",
-              "messenger": "https://www.facebook.com/deeyanrendon",
+              "messenger": "",
               "phone": "",
               "email": ""
             }
           ],
           "viceChair": {
-            "role": "Family Services Vice-Chairman",
+            "role": "Vice Chairman / Co-Chairman",
             "people": []
           }
         },
@@ -194,7 +135,7 @@
             }
           ],
           "viceChair": {
-            "role": "Health and Nutrition Vice-Chairman",
+            "role": "Vice Chairman / Co-Chairman",
             "people": []
           }
         },
@@ -205,7 +146,7 @@
               "id": "p9",
               "name": "Ruben Genterone",
               "photo": "",
-              "messenger": "https://www.facebook.com/rgenterone",
+              "messenger": "",
               "phone": "",
               "email": ""
             },
@@ -219,7 +160,7 @@
             }
           ],
           "viceChair": {
-            "role": "GAMA Vice-Chairman",
+            "role": "Vice Chairman / Co-Chairman",
             "people": []
           }
         },
@@ -236,7 +177,7 @@
             }
           ],
           "viceChair": {
-            "role": "My Plan Vice-Chairman",
+            "role": "Vice Chairman / Co-Chairman",
             "people": []
           }
         },
@@ -244,7 +185,7 @@
           "role": "Business and Employment Chairman",
           "people": [],
           "viceChair": {
-            "role": "Business and Employment Vice-Chairman",
+            "role": "Vice Chairman / Co-Chairman",
             "people": []
           }
         },
@@ -261,7 +202,7 @@
             }
           ],
           "viceChair": {
-            "role": "ATPG Vice-Chairman",
+            "role": "Vice Chairman / Co-Chairman",
             "people": []
           }
         }
@@ -1047,7 +988,7 @@
               "id": "p53",
               "name": "Memelie Munoz",
               "photo": "",
-              "messenger": "https://www.facebook.com/memz11",
+              "messenger": "",
               "phone": "",
               "email": ""
             }
@@ -1060,7 +1001,7 @@
               "id": "p54",
               "name": "Judylyn Gonzales",
               "photo": "",
-              "messenger": "https://www.facebook.com/judylyn.munoz",
+              "messenger": "",
               "phone": "",
               "email": ""
             }
@@ -1073,7 +1014,7 @@
               "id": "p55",
               "name": "Joan Uy",
               "photo": "",
-              "messenger": "https://www.facebook.com/joan.lumbab",
+              "messenger": "",
               "phone": "",
               "email": ""
             }
@@ -1086,7 +1027,7 @@
               "id": "p56",
               "name": "Ruben Genterone",
               "photo": "",
-              "messenger": "https://www.facebook.com/rgenterone",
+              "messenger": "",
               "phone": "",
               "email": ""
             }
@@ -1099,7 +1040,7 @@
               "id": "p57",
               "name": "Jericho Genterone",
               "photo": "",
-              "messenger": "https://www.facebook.com/jerichomiles.genterone.7",
+              "messenger": "",
               "phone": "",
               "email": ""
             }
@@ -1111,8 +1052,8 @@
             {
               "id": "p58",
               "name": "Cris Codilla",
-              "photo": "/uploads/p58-1786604862179.jpg",
-              "messenger": "https://www.facebook.com/sirchul",
+              "photo": "",
+              "messenger": "",
               "phone": "",
               "email": ""
             }
@@ -1125,7 +1066,7 @@
               "id": "p59",
               "name": "Jerald Munoz",
               "photo": "",
-              "messenger": "https://www.facebook.com/reubenjon101817",
+              "messenger": "",
               "phone": "",
               "email": ""
             }

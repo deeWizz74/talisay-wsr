@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin — Talisay Stake WSR Directory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/admin.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">WSR</span>
+        <div>
+          <h1>Admin Dashboard</h1>
+          <p class="brand-sub" id="whoami">Talisay Stake WSR Directory</p>
+        </div>
+      </div>
+      <div class="admin-actions">
+        <a class="admin-link" href="/directory" target="_blank">View directory</a>
+        <a class="admin-link" href="/" target="_blank">View home</a>
+        <a class="admin-link" href="/admin/api/backup">Download backup</a>
+        <button class="admin-link" id="changePwBtn" type="button">Change password</button>
+        <form method="POST" action="/admin/logout"><button class="admin-link" type="submit">Log out</button></form>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label class="field">
+        <span>Editing ward</span>
+        <select id="wardSelect" aria-label="Select a ward to edit"></select>
+      </label>
+    </section>
+
+    <div id="wardEdit"></div>
+  </main>
+
+  <dialog id="pwDialog" class="dialog">
+    <form id="pwForm" method="dialog">
+      <h3>Change admin password</h3>
+      <label class="field"><span>Current password</span><input type="password" id="curPw" required /></label>
+      <label class="field"><span>New password (min 6 chars)</span><input type="password" id="newPw" required minlength="6" /></label>
+      <p id="pwError" class="login-error hidden"></p>
+      <div class="dialog-actions">
+        <button type="button" class="btn" id="pwCancel">Cancel</button>
+        <button type="submit" class="btn btn-primary" id="pwSave">Save</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="photoDialog" class="dialog">
+    <form id="photoForm">
+      <h3>Upload photo</h3>
+      <input type="file" id="photoInput" accept="image/*" required />
+      <div class="dialog-actions">
+        <button type="button" class="btn" id="photoCancel">Cancel</button>
+        <button type="submit" class="btn btn-primary">Upload</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Talisay Stake — Know Your Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/landing.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">WSR</span>
+        <div>
+          <h1>Know Your Specialist</h1>
+          <p class="brand-sub">Talisay Stake &middot; Welfare &amp; Self-Reliance Directory</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-copy">
+        <h2>Find your ward's <em>specialist</em> in a few taps</h2>
+        <p class="hero-sub">
+          Every ward in Talisay Stake has a Welfare &amp; Self-Reliance team covering education,
+          family services, health, employment, and more. Look up who serves your ward and message
+          them directly.
+        </p>
+        <p class="hero-fillstat" id="hero-fillstat"></p>
+      </div>
+      <form class="hero-panel" id="heroJump" aria-label="Jump to your ward">
+        <label for="heroWardSelect">Go straight to your ward</label>
+        <select id="heroWardSelect" name="ward"></select>
+        <button type="submit">Open directory <span aria-hidden="true">→</span></button>
+      </form>
+    </section>
+
+    <section class="quick-wards">
+      <h3>Every ward</h3>
+      <div class="ward-list" id="wardChips"></div>
+    </section>
+
+    <section class="about-roles">
+      <h3>What each specialist does</h3>
+      <dl class="role-legend-list" id="roleLegendGrid"></dl>
+    </section>
+
+    <p class="updated-at" id="updatedAt"></p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Maintained by the Talisay Stake WSR committee. Notice something out of date? Let your ward's WSR Specialist know.</p>
+  </footer>
+
+  <script src="/js/landing.js"></script>
+</body>
+</html>

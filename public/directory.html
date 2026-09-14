@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Talisay Stake — Know Your Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">WSR</span>
+        <div>
+          <h1>Know Your Specialist</h1>
+          <p class="brand-sub">Talisay Stake &middot; Welfare &amp; Self-Reliance Directory</p>
+        </div>
+      </div>
+      <div class="admin-actions">
+        <a class="admin-link" href="/">Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <label class="field">
+        <span>Choose a ward</span>
+        <select id="wardSelect" aria-label="Select a ward"></select>
+      </label>
+    </section>
+
+    <div id="wardView"></div>
+
+    <p class="updated-at" id="updatedAt"></p>
+  </main>
+
+  <footer class="site-footer">
+    <p>Tap <strong>Message</strong> to reach a specialist on Messenger. If a role shows "Vacant," contact the ward's WSR Specialist or a High Councilor.</p>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

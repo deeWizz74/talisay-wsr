@@ -1,0 +1,163 @@
+/* ---------- Hero ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.95fr);
+  gap: clamp(28px, 5vw, 64px);
+  align-items: start;
+  padding: clamp(24px, 6vw, 64px) 0 clamp(32px, 6vw, 72px);
+}
+@media (max-width: 860px) {
+  .hero { grid-template-columns: 1fr; padding-top: 12px; }
+}
+
+.hero-copy h2 {
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.08;
+  margin: 0 0 20px;
+  color: var(--navy);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+.hero-copy h2 em {
+  font-style: normal;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.hero-sub {
+  max-width: 480px;
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-size: 16.5px;
+  line-height: 1.6;
+}
+.hero-fillstat {
+  max-width: 480px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+
+/* ---------- Hero jump form (functional, not decorative) ---------- */
+.hero-panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lift);
+  padding: clamp(20px, 3vw, 26px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.hero-panel label {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--text);
+}
+.hero-panel select {
+  font-family: var(--font-body);
+  font-size: 16px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 48px;
+}
+.hero-panel button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--navy);
+  color: #fff;
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 14px;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  min-height: 48px;
+  transition: background-color 150ms ease-out;
+}
+@media (prefers-reduced-motion: reduce) { .hero-panel button { transition: none; } }
+.hero-panel button:hover { background: var(--navy-2); }
+.hero-panel button span { transition: transform 150ms ease-out; }
+.hero-panel button:hover span { transform: translateX(3px); }
+
+/* ---------- Ward list ---------- */
+.quick-wards { margin: clamp(30px, 5vw, 56px) 0; }
+.quick-wards h3, .about-roles h3 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--muted);
+  margin: 0 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.quick-wards h3::after, .about-roles h3::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.ward-list {
+  border-top: 1px solid var(--line);
+}
+.ward-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 15px 4px;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 44px;
+}
+.ward-row:hover { color: var(--accent); }
+.ward-row .stake-tag {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: var(--accent);
+}
+
+/* ---------- Role legend ---------- */
+.about-roles { margin: clamp(30px, 5vw, 56px) 0 16px; }
+.role-legend-list {
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) 1fr;
+  column-gap: 24px;
+  row-gap: 4px;
+}
+.role-legend-list dt {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 14.5px;
+  color: var(--navy);
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+.role-legend-list dd {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--muted);
+  line-height: 1.5;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+}
+@media (max-width: 620px) {
+  .role-legend-list { grid-template-columns: 1fr; }
+  .role-legend-list dt { padding-bottom: 2px; border-top: 1px solid var(--line); }
+  .role-legend-list dd { padding-top: 0; padding-bottom: 14px; border-top: none; }
+}

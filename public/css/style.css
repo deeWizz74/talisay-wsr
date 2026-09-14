@@ -1,0 +1,361 @@
+/* ============================================================
+   Design tokens — clean, modern, light-only. No dark mode.
+   Flat surfaces, one confident navy + one warm amber accent,
+   geometric sans typography.
+   ============================================================ */
+:root {
+  --font-display: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --navy: #1e2749;
+  --navy-2: #2a3563;
+  --accent: #e08a34;
+  --accent-light: #f5b876;
+  --accent-soft: #fdedd9;
+
+  --bg: #f5f6f8;
+  --card: #ffffff;
+  --text: #14171f;
+  --muted: #667085;
+  --line: #e3e6ec;
+  --vacant-bg: #fff5e9;
+  --vacant-line: #f6d19f;
+
+  --success: #1b8a3f;
+  --success-bg: #e9f7ec;
+  --success-bg-hover: #d9f1de;
+  --danger: #b3261e;
+  --danger-bg: #fdecea;
+  --danger-border: #f3c6c1;
+  --messenger: #2954d4;
+  --messenger-bg: #eaf0fe;
+  --messenger-bg-hover: #d9e6fb;
+  --accent-ring: rgba(224, 138, 52, 0.28);
+
+  --radius: 16px;
+  --radius-sm: 12px;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.06), 0 4px 12px rgba(16, 24, 40, 0.06);
+  --shadow-lift: 0 8px 16px rgba(16, 24, 40, 0.08), 0 20px 40px rgba(16, 24, 40, 0.1);
+
+  --container-max: 1320px;
+  --space-page: clamp(16px, 4vw, 56px);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+h1, h2, h3 { font-family: var(--font-display); }
+
+.topbar {
+  background: var(--navy);
+  color: #fff;
+}
+.topbar-inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 18px var(--space-page);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.brand { display: flex; align-items: center; gap: 14px; min-width: 0; }
+.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
+  background: var(--accent);
+  color: var(--navy);
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+.brand h1 {
+  font-size: clamp(18px, 2.4vw, 22px);
+  margin: 0;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+.brand-sub {
+  margin: 2px 0 0;
+  font-size: 12.5px;
+  color: #b7bfdb;
+  font-family: var(--font-body);
+}
+.admin-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.admin-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  padding: 8px 14px;
+  border-radius: 999px;
+  white-space: nowrap;
+  transition: background-color 150ms ease-out, border-color 150ms ease-out;
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+}
+@media (prefers-reduced-motion: reduce) { .admin-link { transition: none; } }
+.admin-link:hover { background: rgba(255, 255, 255, 0.12); border-color: var(--accent-light); }
+
+.container { max-width: var(--container-max); margin: 0 auto; padding: clamp(20px, 3.5vw, 40px) var(--space-page) 72px; }
+
+.controls { margin-bottom: 22px; max-width: 380px; }
+@media (max-width: 640px) { .controls { max-width: none; } }
+.field { display: flex; flex-direction: column; gap: 7px; font-size: 12.5px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+.field select, .field input {
+  font-family: var(--font-body);
+  font-size: 16px;
+  padding: 13px 14px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--text);
+  min-height: 48px;
+}
+.field select:focus, .field input:focus { outline: 2px solid var(--accent-light); outline-offset: 1px; }
+
+.ward-title { margin: 6px 0 4px; font-size: clamp(24px, 3.2vw, 32px); font-weight: 700; letter-spacing: -0.3px; }
+.ward-sub { margin: 0 0 22px; color: var(--muted); font-size: 14px; }
+.scroll-hint { margin: 0 0 6px; color: var(--muted); font-size: 12px; text-align: center; }
+
+.avatar {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+  background: var(--navy);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 600;
+  min-height: 44px;
+  padding: 10px 16px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 150ms ease-out, border-color 150ms ease-out, transform 100ms ease-out;
+}
+@media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
+.btn:active { transform: scale(0.97); }
+.btn-icon { display: inline-flex; width: 18px; height: 18px; flex-shrink: 0; }
+.btn-icon svg { width: 100%; height: 100%; }
+.btn-messenger { background: var(--messenger-bg); color: var(--messenger); }
+.btn-messenger:hover { background: var(--messenger-bg-hover); }
+.btn-phone { background: var(--success-bg); color: var(--success); }
+.btn-phone:hover { background: var(--success-bg-hover); }
+.btn-disabled { background: transparent; color: var(--muted); border: 1px dashed var(--line); cursor: default; }
+.btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.connector-stem {
+  width: 0;
+  height: 26px;
+  margin: 0 auto;
+  border-left: 2px solid var(--line);
+}
+
+/* ---------- Org chart ----------
+   The layout math below (flex/fit-content/margin) is load-bearing —
+   it keeps the tree's connector lines correct and every box reachable
+   by scroll. Only colors, type, and spacing were restyled. */
+.org-chart-wrap {
+  overflow-x: auto;
+  padding: 10px 4px 32px;
+}
+.org-tree, .org-tree ul {
+  list-style: none;
+  margin: 0;
+  padding: 32px 0 0;
+  position: relative;
+}
+.org-tree ul {
+  display: flex;
+  justify-content: center;
+}
+.org-tree {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 0;
+}
+.org-tree li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 32px 14px 0;
+  flex-shrink: 0;
+}
+.org-tree li::before, .org-tree li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 50%;
+  height: 32px;
+  border-top: 2px solid var(--line);
+}
+.org-tree li::after { right: auto; left: 50%; border-left: 2px solid var(--line); }
+.org-tree li:only-child::after, .org-tree li:only-child::before { display: none; }
+.org-tree li:only-child { padding-top: 0; }
+.org-tree > li { padding-top: 0; }
+.org-tree > li::before, .org-tree > li::after { display: none; }
+.org-tree li:first-child::before { border: none; }
+.org-tree li:last-child::after { border: none; }
+.org-tree li:last-child::before { border-right: 2px solid var(--line); border-radius: 0 6px 0 0; }
+.org-tree li:first-child::after { border-radius: 6px 0 0 0; }
+
+/* A support role (e.g. Stake WSR Secretary) reporting in but not chairing
+   its own subcommittee — shown with a broken connector instead of solid.
+   The vertical drop to a child's own box is drawn by ::after's border-left
+   normally, but by :last-child::before's border-right when it's the last
+   sibling (its ::after has no border at all) — so both are covered. */
+.org-tree li.dashed-link::after { border-left-style: dashed; }
+.org-tree li.dashed-link:last-child::before { border-right-style: dashed; }
+.org-tree ul::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  border-left: 2px solid var(--line);
+  width: 0;
+  height: 32px;
+}
+
+.org-node {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 12px 11px 10px;
+  width: 124px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  color: var(--text);
+  transition: border-color 150ms ease-out, transform 100ms ease-out, box-shadow 150ms ease-out;
+}
+@media (prefers-reduced-motion: reduce) { .org-node { transition: none; } }
+.org-node:hover { border-color: var(--accent); box-shadow: var(--shadow-lift); }
+.org-node:active { transform: scale(0.97); }
+.org-node:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.org-node.selected { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-ring); }
+.org-node .avatar { width: 36px; height: 36px; font-size: 12.5px; margin: 0 auto; }
+.org-node .org-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 12.5px;
+  line-height: 1.25;
+  width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.org-node .org-role {
+  font-size: 10px;
+  color: var(--muted);
+  line-height: 1.2;
+  width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.org-node.label-node {
+  background: var(--card);
+  border: 1px solid var(--line);
+  box-shadow: none;
+  padding: 7px 12px;
+  min-width: 0;
+  border-radius: 999px;
+}
+.org-node.label-node .org-role {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--navy);
+  font-size: 10px;
+}
+
+.org-node.vacant {
+  background: var(--vacant-bg);
+  border-style: dashed;
+  border-color: var(--vacant-line);
+  color: var(--muted);
+}
+
+.profile-panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: clamp(18px, 3vw, 26px);
+  margin-top: 8px;
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+.profile-panel.placeholder { color: var(--muted); font-size: 14px; justify-content: center; }
+.profile-panel .avatar { width: 76px; height: 76px; font-size: 26px; flex-shrink: 0; }
+.profile-body { flex: 1; min-width: 0; }
+.profile-name { font-family: var(--font-display); font-size: 20px; font-weight: 700; margin: 0 0 2px; letter-spacing: -0.2px; }
+.profile-role { font-size: 13px; color: var(--accent); font-weight: 700; margin: 0 0 10px; text-transform: uppercase; letter-spacing: 0.4px; }
+.profile-desc { font-size: 13.5px; color: var(--muted); margin: 0 0 14px; line-height: 1.5; }
+.profile-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.updated-at { text-align: center; color: var(--muted); font-size: 12px; margin-top: 34px; }
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 22px var(--space-page) 34px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+
+.loading { color: var(--muted); padding: 34px 0; text-align: center; }
+
+@media (max-width: 480px) {
+  .org-node { width: 108px; padding: 10px 8px 8px; }
+  .profile-panel { flex-direction: column; align-items: center; text-align: center; }
+  .profile-actions { justify-content: center; }
+}

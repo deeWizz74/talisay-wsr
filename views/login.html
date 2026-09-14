@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Admin Login — Talisay Stake WSR Directory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400..800&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/admin.css" />
+</head>
+<body>
+  <div class="login-wrap">
+    <form class="login-card" method="POST" action="/admin/login">
+      <div class="brand-mark" style="margin-bottom:10px;">WSR</div>
+      <h1>Admin Sign In</h1>
+      <p class="ward-sub">Talisay Stake WSR Directory</p>
+      <div id="loginError" class="login-error hidden">Incorrect username or password.</div>
+      <label class="field">
+        <span>Username</span>
+        <input type="text" name="username" autocomplete="username" required />
+      </label>
+      <label class="field">
+        <span>Password</span>
+        <input type="password" name="password" autocomplete="current-password" required />
+      </label>
+      <button class="btn btn-primary" type="submit">Sign In</button>
+      <a class="back-link" href="/">← Back to directory</a>
+    </form>
+  </div>
+  <script>
+    if (new URLSearchParams(location.search).get('error')) {
+      document.getElementById('loginError').classList.remove('hidden');
+    }
+  </script>
+</body>
+</html>
